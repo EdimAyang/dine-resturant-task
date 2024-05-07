@@ -54,7 +54,7 @@ header{
 
 .head-text p{
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.5em;
     color: #fff;
     width: 83%;
@@ -71,8 +71,11 @@ header{
     font-size: 16px;
     font-weight: 600;
     width: 70%;
-    
-    
+}
+
+.btn1:hover{
+    background-color: #fff;
+    color: black;
 }
 
 .content1{
@@ -103,15 +106,17 @@ header{
     letter-spacing: 2px;
     text-align: center;
     line-height: 1em;
+    color: hsl(234, 30%, 13%);
 }
 
 .content1 p{
     font-size: 19px;
-    font-weight: 550;
+    font-weight: 400;
     line-height: 1.5em;
     width: 83%;
     margin:20px auto;
     text-align: center;
+    color: hsl(234, 30%, 13%);
 }
 
 
@@ -134,15 +139,17 @@ header{
     letter-spacing: 2px;
     text-align: center;
     line-height: 1em;
+    color: hsl(234, 30%, 13%);
 }
 
 .content2-text p{
     font-size: 19px;
-    font-weight: 550;
+    font-weight: 400;
     line-height: 1.5em;
     width: 83%;
     margin:20px auto;
     text-align: center;
+    color: hsl(234, 30%, 13%);
 }
 
 .content2{
@@ -151,7 +158,9 @@ header{
     background-color: hsl(0, 0%, 7%);
 }
 
-
+.bars{
+    display: none;
+}
 
 .content3-text h2{
     font-size: 40px;
@@ -162,11 +171,12 @@ header{
     line-height: 1em;
     color: #fff;
     padding-top: 80px;
+    
 }
 
 .content3-text p{
     font-size: 19px;
-    font-weight: 550;
+    font-weight: 400;
     line-height: 1.5em;
     width: 83%;
     margin:20px auto;
@@ -185,7 +195,7 @@ header{
     text-align: center;
     margin-top: 30px;
     font-size: 19px;
-    font-weight: 550;
+    font-weight: 400;
     line-height: 1.5em;
     width: 83%;
     margin: auto;
@@ -223,7 +233,7 @@ header{
     text-align: center;
     margin-top: 30px;
     font-size: 19px;
-    font-weight: 550;
+    font-weight: 400;
     line-height: 1.5em;
     width: 83%;
     margin: auto;
@@ -259,7 +269,7 @@ header{
     text-align: center;
     margin-top: 30px;
     font-size: 19px;
-    font-weight: 550;
+    font-weight: 400;
     line-height: 1.5em;
     width: 83%;
     margin: auto;
@@ -298,16 +308,21 @@ header{
 }
 
 
-.content3  .btn2{
+.content3  .btn1{
     margin-top: 20px;
     background-color:hsl(0, 0%, 7%) ;
     color: #fff;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     border: none;
     padding: 25px;
     width: 70%;
     
+}
+.content3 .btn1:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: #fff;
 }
 
 .content3{
@@ -339,11 +354,12 @@ header{
     margin:30px auto;
     letter-spacing: 2px;
     text-align: center;
+    color: hsl(234, 30%, 13%);
 }
 
 .content4-text p{
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.5em;
     width: 83%;
     margin:20px auto;
@@ -381,10 +397,15 @@ header{
     border: 1px solid #fff;
     color: #fff;
     font-size: 16px;
-    font-weight: 600; 
+    font-weight: 700; 
     width: 70%;
     margin: auto;
     margin-top: 50px;
+}
+
+.content4 .btn1:hover{
+    background-color: #fff;
+    color: black;
 }
 
 .footer{
@@ -489,6 +510,10 @@ a{
     font-weight: 600;
     text-transform: uppercase;
     width: 70%;
+}
+
+.bars{
+    display: none;
 }
 
 .form-container{
@@ -745,7 +770,7 @@ input[type=number]::-webkit-outer-spin-button{
     
     .head-text p{
         font-size: 19px;
-        font-weight: 600;
+        font-weight: 400;
         line-height: 1.5em;
         color: #fff;
         width: 60%;
@@ -760,7 +785,7 @@ input[type=number]::-webkit-outer-spin-button{
         background-color:hsl(0, 0%, 7%) ;
         color: #fff;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 700;
         width: 30%;
         
         
@@ -797,15 +822,17 @@ input[type=number]::-webkit-outer-spin-button{
         letter-spacing: 2px;
         text-align: center;
         line-height: 1em;
+        color: hsl(234, 30%, 13%);
     }
     
     .content1 p{
         font-size: 19px;
-        font-weight: 550;
+        font-weight: 400;
         line-height: 1.5em;
         width: 70%;
         margin:20px auto;
         text-align: center;
+        color: hsl(234, 30%, 13%);
     }
     
     
@@ -820,8 +847,25 @@ input[type=number]::-webkit-outer-spin-button{
         border: none;
         box-shadow: 0 0 30px rgb(0, 0, 0, .5);
     }
-    
 
+    
+    .content2-image .bars{
+        background-color: transparent;
+        position: relative;
+        width: 25%;
+        height: 90px;
+        margin: 10px;
+        left: 80%;
+        top: 60%;
+        display: block;
+    }
+    .line{
+        width: 100%;
+        height: 10px;
+        background-color: hsl(27, 22%, 51%);
+        margin: 8px;
+        
+    }
     
     .content2-text h2{
         font-size: 40px;
@@ -831,15 +875,17 @@ input[type=number]::-webkit-outer-spin-button{
         letter-spacing: 2px;
         text-align: center;
         line-height: 1em;
+        color: hsl(234, 30%, 13%);
     }
     
     .content2-text p{
         font-size: 19px;
-        font-weight: 550;
+        font-weight: 400;
         line-height: 1.5em;
         width: 70%;
         margin:20px auto;
         text-align: center;
+        color: hsl(234, 30%, 13%);
     }
     
     .content2{
@@ -863,7 +909,7 @@ input[type=number]::-webkit-outer-spin-button{
     
     .content3-text p{
         font-size: 19px;
-        font-weight: 550;
+        font-weight: 400;
         line-height: 1.5em;
         width: 60%;
         margin:20px auto;
@@ -897,7 +943,7 @@ input[type=number]::-webkit-outer-spin-button{
     .salmon p{
         text-align: start;
         font-size: 19px;
-        font-weight: 550;
+        font-weight: 400;
         line-height: 1.5em;
         color: #fff;
         margin: 0;
@@ -948,7 +994,7 @@ input[type=number]::-webkit-outer-spin-button{
     .rosemary p{
         text-align: start;
         font-size: 19px;
-        font-weight: 550;
+        font-weight: 400;
         line-height: 1.5em;
         color: #fff;
         margin: 0;
@@ -999,7 +1045,7 @@ input[type=number]::-webkit-outer-spin-button{
     .summer p{
         text-align: start;
         font-size: 19px;
-        font-weight: 550;
+        font-weight: 400;
         line-height: 1.5em;
         color: #fff;
         margin: 0;
@@ -1039,14 +1085,31 @@ input[type=number]::-webkit-outer-spin-button{
         box-shadow: 0 0 30px rgb(0, 0, 0, .5);
     }
     
+    .content3 .bars{
+        background-color: transparent;
+        position: relative;
+        width: 25%;
+        height: 90px;
+        margin: 10px;
+        left: -10%;
+        top: -23%;
+        display: block;
+    }
+    .line{
+        width: 100%;
+        height: 10px;
+        background-color: hsl(27, 22%, 51%);
+        margin: 8px;
+        
+    }
     
-    .content3   .btn2{
+    .content3   .btn1{
         margin-top:20px;
         padding:25px;
         background-color:hsl(0, 0%, 7%) ;
         color: #fff;
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 700;
         border: none;
         width:30%;
         
@@ -1091,15 +1154,17 @@ input[type=number]::-webkit-outer-spin-button{
         margin:30px auto;
         letter-spacing: 2px;
         text-align: center;
+        color: hsl(234, 30%, 13%);
     }
     
     .content4-text p{
         font-size: 19px;
-        font-weight: 600;
+        font-weight: 400;
         line-height: 1.5em;
         width: 60%;
         margin:20px auto;
         text-align: center;
+        color: hsl(234, 30%, 13%);
     }
     
     
@@ -1134,7 +1199,7 @@ input[type=number]::-webkit-outer-spin-button{
         border: 1px solid #fff;
         color: #fff;
         font-size: 16px;
-        font-weight: 500; 
+        font-weight: 700; 
         width: 30%;
         margin: auto;
         margin-top: 50px;
@@ -1225,6 +1290,9 @@ input[type=number]::-webkit-outer-spin-button{
         display: none;
     }
     
+    .bars{
+        display: none;
+    }
     .form-container{
         width: 100%;
         height: 530px;
@@ -1438,6 +1506,8 @@ input[type=number]::-webkit-outer-spin-button{
             display: flex;
             flex-direction: row-reverse;
         }
+
+        
         
         .head-image{
             width: 100%;
@@ -1472,6 +1542,7 @@ input[type=number]::-webkit-outer-spin-button{
          padding-top: 30px;
          text-align: center;
          width: 50%;
+         font-family:"League Spartan", sans-serif;
         }
         
         .head-text h2{
@@ -1482,12 +1553,12 @@ input[type=number]::-webkit-outer-spin-button{
             margin: auto;
             letter-spacing: 2px;
             color: #fff;
-            
+            font-family:"League Spartan", sans-serif;
         }
         
         .head-text p{
             font-size: 19px;
-            font-weight: 600;
+            font-weight: 400;
             line-height: 1.5em;
             color: #fff;
             width: 62%;
@@ -1503,10 +1574,14 @@ input[type=number]::-webkit-outer-spin-button{
             background-color:hsl(0, 0%, 7%) ;
             color: #fff;
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 700;
             width: 30%;
             margin-left: 120px;
             
+        }
+        .btn1:hover{
+            background-color: #fff;
+            color: black;
         }
         
         .content1{
@@ -1553,15 +1628,17 @@ input[type=number]::-webkit-outer-spin-button{
             letter-spacing: 3px;
             text-align: start;
             line-height: 1em;
+            color: hsl(234, 30%, 13%);
         }
         
         .content1 p{
             font-size: 19px;
-            font-weight: 550;
+            font-weight: 400;
             line-height: 1.5em;
             width: 100%;
             margin:20px auto;
             text-align: start;
+            color: hsl(234, 30%, 13%);
         }
         
         .con2{
@@ -1582,6 +1659,24 @@ input[type=number]::-webkit-outer-spin-button{
             position: relative;
             top: 80px;
         }
+
+        .content2-image .bars{
+            background-color: transparent;
+            position: relative;
+            width: 35%;
+            height: 90px;
+            margin: 10px;
+            left: 78%;
+            top: 40%;
+            
+        }
+        .line{
+            width: 100%;
+            height: 10px;
+            background-color: hsl(27, 22%, 51%);
+            margin: 8px;
+            
+        }
         
         .content2-text{
             width: 40%;
@@ -1597,14 +1692,16 @@ input[type=number]::-webkit-outer-spin-button{
             letter-spacing: 4px;
             text-align: start;
             line-height: 1em;
+            color: hsl(234, 30%, 13%);
         }
         
         .content2-text p{
             font-size: 19px;
-            font-weight: 550;
+            font-weight: 400;
             line-height: 1.5em;
             width: 100%;
             text-align: start;
+
         }
         
         .content2{
@@ -1635,7 +1732,7 @@ input[type=number]::-webkit-outer-spin-button{
         
         .content3-text p{
             font-size: 19px;
-            font-weight: 550;
+            font-weight: 400;
             line-height: 1.5em;
             width: 70%;
             margin:20px auto;
@@ -1674,7 +1771,7 @@ input[type=number]::-webkit-outer-spin-button{
         .salmon p{
             text-align: start;
             font-size: 19px;
-            font-weight: 550;
+            font-weight: 400;
             line-height: 1.5em;
             color: #fff;
             margin: 0;
@@ -1725,7 +1822,7 @@ input[type=number]::-webkit-outer-spin-button{
         .rosemary p{
             text-align: start;
             font-size: 19px;
-            font-weight: 550;
+            font-weight: 400;
             line-height: 1.5em;
             color: #fff;
             margin: 0;
@@ -1776,7 +1873,7 @@ input[type=number]::-webkit-outer-spin-button{
         .summer p{
             text-align: start;
             font-size: 19px;
-            font-weight: 550;
+            font-weight: 400;
             line-height: 1.5em;
             color: #fff;
             margin: 0;
@@ -1818,7 +1915,23 @@ input[type=number]::-webkit-outer-spin-button{
             box-shadow: 0 0 30px rgb(0, 0, 0, .5);
         }
 
-    
+        .content3 .bars{
+            background-color: transparent;
+            position: relative;
+            width: 35%;
+            height: 90px;
+            margin: 10px;
+            left: -15%;
+            top: -13%;
+            
+        }
+        .line{
+            width: 100%;
+            height: 10px;
+            background-color: hsl(27, 22%, 51%);
+            margin: 8px;
+            
+        }
         
         
         .content3  .btn1{
@@ -1826,13 +1939,19 @@ input[type=number]::-webkit-outer-spin-button{
             background-color:hsl(0, 0%, 7%) ;
             color: #fff;
             font-size: 16px;
-            font-weight: 500;
+            font-weight: 700;
             border: none;
             width:40%;
             position: relative;
             left: -29%;
             margin: 0;
             
+        }
+
+        .content3  .btn1:hover{
+            background-color: #fff;
+            color: black;
+            border:1px solid black;
         }
 
         .fam-con{
@@ -1885,15 +2004,17 @@ input[type=number]::-webkit-outer-spin-button{
             margin:30px auto;
             letter-spacing: 2px;
             text-align: start;
+            color: hsl(234, 30%, 13%);
         }
         
         .content4-text p{
             font-size: 19px;
-            font-weight: 600;
+            font-weight: 400;
             line-height: 1.5em;
             width: 100%;
             margin:20px auto;
             text-align: start;
+            color: hsl(234, 30%, 13%);
         }
         
         
@@ -1932,9 +2053,15 @@ input[type=number]::-webkit-outer-spin-button{
             border: 1px solid #fff;
             color: #fff;
             font-size: 16px;
-            font-weight: 500; 
+            font-weight: 700; 
             width: 50%;
             margin: 0 auto;
+            cursor: pointer;
+        }
+
+        .content4 .btn1:hover{
+            background-color: #fff;
+            color: black;
         }
         
         .footer{
@@ -2062,13 +2189,32 @@ input[type=number]::-webkit-outer-spin-button{
             width: 100%;
             height: 400px;
         }
+
+        .bars{
+            background-color: white;
+            position: relative;
+            width: 15%;
+            height: 90px;
+            margin: 10px;
+            top: 50%;
+            left: 35%;
+            display: block;
+        }
+
+        .line{
+            width: 100%;
+            height: 10px;
+            background-color: hsl(27, 22%, 51%);
+            margin: 8px;
+            
+        }
         
         form{
             width: 45%;
             margin: auto;
             height:630px ;
             position: relative;
-            bottom: 85%;
+            bottom: 120%;
             left: 18%;
             background-color: #fff;
             box-shadow: 0 0 30px rgb(0, 0, 0, .5);

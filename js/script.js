@@ -11,6 +11,8 @@ let
     person =id("persons"),
      Plus = id("plus"),
      Minus = id("minus"),
+     plus = id("Plus"),
+    minus = id("Minus"),
      userName= id("name"),
      userName1= id("name1"),
      email = id("email"),
@@ -31,11 +33,17 @@ let
     Minutes = id("minutes");
 
 
-let countValue = 0  
+let countValue = 0 ;
 
+console.log(Minus)
 
 Minus.addEventListener("click" , () =>{
-    countValue-=1;
+    countValue -=1;
+    person.innerText = countValue ;
+})
+
+minus.addEventListener("click" , () =>{
+    countValue -=1;
     person.innerText = countValue ;
 })
 
@@ -87,6 +95,8 @@ let engine = () =>{
 
 }*/
 
+
+form2
 
 form.addEventListener("submit",(e) =>{
     e.preventDefault();
