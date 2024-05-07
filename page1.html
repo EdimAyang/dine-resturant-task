@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boobing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;
+    0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;
+    0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,
+    wght@0,9..144,100..900;1,9..144,100..900&family=Josefin+Sans:wght@100..700&family=League+Spartan:wght@100..900&family=Lexend
+    +Deca:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+        <div class="off-screen-header">
+    <div class="validation-buttons">
+        <div><button id="HV">HTML VALIDATION</button></div>
+        <div><button id="JV" >J.S VALIDATION</button></div>
+    </div>
+    <a href="/index.html" class="anchor"><h1>dine</h1></a>
+<div class="reserve-H">
+    <h2>Reservations</h2>
+    <p>WE can't wait to host you. If you have any special requirements please feel free to call on the phone number below. We'll be happy to accomodate  you.</p>
+</div>
+    <button type="submit"  class="btn4">Reserve place</button>
+</div>
+        
+<div class="form-container">
+    <form  id="form" >
+        <div class="input-box">
+            <input type="text" id="name" placeholder="Name"  >
+            
+        </div>
+        <div class="error1" ></div>
+        
+        <div class="input-box">
+            <input type="Email" id="email" placeholder="Email" >
+        </div>
+        <div class="error1" ></div>
+        
+        <div class="input-date">
+            <div>
+                <p  class="p">Pick a date</p>
+                <div class="error1" ></div>
+            </div>
+        
+            <div class="date-wrapper">
+                <div  class="date">
+                    <input type="number" id="month" placeholder="MM">
+                </div>
+                <div  class="date">
+                    <input type="number" id="day" placeholder="DD">
+                </div>
+                <div  class="date">
+                    <input type="number" id="year" placeholder="YYYY">
+                </div>
+            </div>
+        </div>
+        <div class="input-time">
+            <div>
+                <p class="p">Pick a time</p>
+                <div class="error1" ></div>
+            </div>
+            <div class="time-wrapper">
+                <div id="hours" class="time">
+                    <input type="number" id="hour" placeholder="09">
+                </div>
+                <div id="minutes" class="time">
+                    <input type="number" id="minutes"  placeholder="00">
+                </div>
+            <div class="select-container">
+                
+                <select id="select-box" class="time">
+                    <option value="AM" id="option">AM</option>
+                    <option value="PM" id="option">PM</option>
+                </select>
+            </div>
+            </div>
+        </div>
+        <div id="people">
+            <div class="decrease"><i class="fa-solid fa-minus"></i></div>
+            <div id="persons" class="people">4 people</div>
+            <div id="plus" class="increase"><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <button class="btn5">MAKE RESERVATION</button>
+    </form>
+    <form  id="form2" >
+        <div class="input-box">
+            <input type="text" id="name" placeholder="Name" required >
+            
+        </div>
+        <div class="error1" ></div>
+        
+        <div class="input-box">
+            <input type="Email" id="email" placeholder="Email" required>
+        </div>
+        <div class="error1" ></div>
+        
+        <div class="input-date">
+            <div>
+                <p  class="p">Pick a date</p>
+                <div class="error1" ></div>
+            </div>
+        
+            <div class="date-wrapper">
+                <div  class="date">
+                    <input type="number" id="month" placeholder="MM" required>
+                </div>
+                <div  class="date">
+                    <input type="number" id="day" placeholder="DD" required>
+                </div>
+                <div  class="date">
+                    <input type="number" id="year" placeholder="YYYY" required>
+                </div>
+            </div>
+        </div>
+        <div class="input-time">
+            <div>
+                <p class="p">Pick a time</p>
+                <div class="error1" ></div>
+            </div>
+            <div class="time-wrapper">
+                <div id="hours" class="time">
+                    <input type="number" id="hour" placeholder="09" required>
+                </div>
+                <div id="minutes" class="time">
+                    <input type="number" id="minutes"  placeholder="00" required>
+                </div>
+            <div class="select-container">
+                
+                <select id="select-box" class="time">
+                    <option value="AM" id="option">AM</option>
+                    <option value="PM" id="option">PM</option>
+                </select>
+            </div>
+            </div>
+        </div>
+        <div id="people">
+            <div class="decrease"><i id="minus" class="fa-solid fa-minus"></i></div>
+            <div id="persons" class="people">4 people</div>
+            <div id="plus" class="increase"><i  class="fa-solid fa-plus"></i></div>
+        </div>
+        <button id="offbtn1" class="btn5">MAKE RESERVATION</button>
+    </form>
+        
+</div>
+<footer class="footer">
+        <h1>dine</h1>
+        <div class="foot-text1">
+        <div>
+            <p>MARTHWAITE, SEDBERGH</p>
+            <P>CUMBRIA</P>
+            <P>+00 44 123 4567</P>
+        </div>
+        <div class="open-T">
+            <p class="footp">OPEN TIMES</p>
+            <p>MON - FRI: 09:00 AM - 10:00 PM</p>
+            <p>SAT - SUN: 09:00AM - 11:30 PM</p>
+        </div>
+        </div>
+    </footer>
+</body>
+<script src="/js/script.js"></script>
+</html>

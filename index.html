@@ -11,24 +11,23 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="/dine.css">
+    <link rel="stylesheet" href="/style/style.css">
     <title>Dine Resturant</title>
 </head>
 <body>
-    <div id="wrap" class="wrapper">
-        <section class="header">
+        <header>
             <div class="head-image">
-                <img src="/Bitmap.png" alt="image">
+                <img src="/asset.png/Bitmap.png" alt="image">
             </div>
             <div class="headwrap">
             <div class="head-text">
                 <h1>dine</h1>
                 <h2>Exquisite dining since 1989</h2>
                 <p>Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from the comfort of our farmhouse.</p>
-                <button id="button" class="btn1">BOOK A TABLE</button>
+                <a href="/page1.html"><button class="btn1">BOOK A TABLE</button></a>
             </div>
         </div>
-        </section>
+        </header>
 
         <section class="content1">
             
@@ -120,7 +119,7 @@
             <div class="content4-text">
                  <h2>Family Gathering</h2>
                  <p>We love catering for entire families,So please bring everyone along for a special meal with your loved ones.We'll provide a memorable experience for all</p>
-                 <button  id="button1" class="btn1" >BOOK A TABLE</button>
+                 <a href="/page1.html"><button class="btn1">BOOK A TABLE</button></a>
             </div>
 
         </div>
@@ -132,7 +131,7 @@
                     <p>Ready to make a reservation ?</p>
                 </h2>
 
-                <button id="button2" class="btn1">BOOK A TABLE</button>
+                <a href="/page1.html"><button class="btn1">BOOK A TABLE</button></a>
 
         </section>
 
@@ -153,207 +152,7 @@
                 <p>SAT - SUN: 09:00AM - 11:30 PM</p>
             </div>
             </div>
-        </footer>
-    </div>
-
-    <section  id="offscreen1" class="off-screen1">
-        <div class="off-screen-header">
-            <div id="validation-buttons">
-                <div><button id="HV">HTML VALIDATION</button></div>
-                <div><button id="JV" >J.S VALIDATION</button></div>
-            </div>
-            <a href="/dine.html" class="anchor"><h1>dine</h1></a>
-
-        <div class="reserve-H">
-            <h2>Reservations</h2>
-            <p>WE can't wait to host you. If you have any special requirements please feel free to call on the phone number below. We'll be happy to accomodate you.</p>
-
-        </div>
-            <button type="submit" id="offbtn" class="btn4">Reserve place</button>
-        </div>
-        
-        <div class="form-container">
-            <form  id="form" >
-                <div class="input-box">
-                    <input type="text" id="name" placeholder="Name"  >
-                    
-                </div>
-                <div class="error1" ></div>
-                
-
-                <div class="input-box">
-                    <input type="Email" id="email" placeholder="Email" >
-                </div>
-                <div class="error1" ></div>
-                
-
-                <div class="input-date">
-                    <div>
-                        <p  class="p">Pick a date</p>
-                        <div class="error1" ></div>
-                    </div>
-                
-                    <div class="date-wrapper">
-                        <div  class="date">
-                            <input type="number" id="month" placeholder="MM">
-                        </div>
-                        <div  class="date">
-                            <input type="number" id="day" placeholder="DD">
-                        </div>
-                        <div  class="date">
-                            <input type="number" id="year" placeholder="YYYY">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="input-time">
-                    <div>
-                        <p class="p">Pick a time</p>
-                        <div class="error1" ></div>
-                    </div>
-                    <div class="time-wrapper">
-                        <div id="hours" class="time">
-                            <input type="number" id="hour" placeholder="09">
-                        </div>
-                        <div id="minutes" class="time">
-                            <input type="number" id="minutes"  placeholder="00">
-                        </div>
-                    <div class="select-container">
-                        
-                        <select id="select-box" class="time">
-                            <option value="AM" id="option">AM</option>
-                            <option value="PM" id="option">PM</option>
-                        </select>
-                    </div>
-                    </div>
-                </div>
-
-                <div id="people">
-                    <div class="decrease"><i id="minus" class="fa-solid fa-minus"></i></div>
-                    <div id="persons" class="people">4 people</div>
-                    <div id="plus" class="increase"><i  class="fa-solid fa-plus"></i></div>
-                </div>
-
-                <button id="offbtn1" class="btn5">MAKE RESERVATION</button>
-            </form>
-
-
-            <form  id="form2" >
-                <div class="input-box">
-                    <input type="text" id="name" placeholder="Name" required >
-                    
-                </div>
-                <div class="error1" ></div>
-                
-                <div class="input-box">
-                    <input type="Email" id="email" placeholder="Email" required>
-                </div>
-                <div class="error1" ></div>
-                
-                <div class="input-date">
-                    <div>
-                        <p  class="p">Pick a date</p>
-                        <div class="error1" ></div>
-                    </div>
-                
-                    <div class="date-wrapper">
-                        <div  class="date">
-                            <input type="number" id="month" placeholder="MM" required>
-                        </div>
-                        <div  class="date">
-                            <input type="number" id="day" placeholder="DD" required>
-                        </div>
-                        <div  class="date">
-                            <input type="number" id="year" placeholder="YYYY" required>
-                        </div>
-                    </div>
-                </div>
-                <div class="input-time">
-                    <div>
-                        <p class="p">Pick a time</p>
-                        <div class="error1" ></div>
-                    </div>
-                    <div class="time-wrapper">
-                        <div id="hours" class="time">
-                            <input type="number" id="hour" placeholder="09" required>
-                        </div>
-                        <div id="minutes" class="time">
-                            <input type="number" id="minutes"  placeholder="00" required>
-                        </div>
-                    <div class="select-container">
-                        
-                        <select id="select-box" class="time">
-                            <option value="AM" id="option">AM</option>
-                            <option value="PM" id="option">PM</option>
-                        </select>
-                    </div>
-                    </div>
-                </div>
-                <div id="people">
-                    <div class="decrease"><i id="minus" class="fa-solid fa-minus"></i></div>
-                    <div id="persons" class="people">4 <span>people</span></div>
-                    <div id="plus" class="increase"><i  class="fa-solid fa-plus"></i></div>
-                </div>
-                <button id="offbtn1" class="btn5">MAKE RESERVATION</button>
-            </form>
-                
-        </div>
-
-        <footer class="footer">
-                <h1>dine</h1>
-                <div class="foot-text1">
-                <div>
-                    <p>MARTHWAITE, SEDBERGH</p>
-                    <P>CUMBRIA</P>
-                    <P>+00 44 123 4567</P>
-                </div>
-                <div class="open-T">
-                    <p class="footp">OPEN TIMES</p>
-                    <p>MON - FRI: 09:00 AM - 10:00 PM</p>
-                    <p>SAT - SUN: 09:00AM - 11:30 PM</p>
-                </div>
-                </div>
-            </footer>
-    </section>
-
-        <section class="off-screen2">
-            <div class="event-image1">
-        
-            </div>
-        </section>
-
-        <section class="off-screen2">
-            <div>
-                <img src="/" alt="">
-            </div>
-
-            <div>
-
-            </div>
-        </section>
-    </section>
-
-    <section class="offscreen2">
-        <div class="event1-image">
-            
-        </div>
-        <div class="Gathering1">
-        <div class="fam1-con">
-        
-            <div class="H4">
-                <h3>FAMILY GATHERING</h3>
-            </div>
-            <h3>SPECIAL EVENTS</h3>
-            <h3>SOCIAL EVENTS</h3>
-            
-    </div>
-        <div class="content5-text">
-             <h2>Family Gathering</h2>
-             <p>We love catering for entire families,So please bring everyone along 
-    for a special meal with your loved ones.We'll provide a memorable 
-    experience for all</p>
-             <button id="button1" class="btn1">BOOK A TABLE</button>
-        </div>
-    <script src="/dine.js"></script>
+        </footer>       
 </body>
+<script src="/js/script.js"></script>
 </html>

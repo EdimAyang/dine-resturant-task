@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family:"League Spartan", sans-serif; 
+    max-height: 100vh;
+    display: block;
+}
+
+.content3{
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+        
+        
+.family-image{
+    background-image: url(/asset.png/desktop\ view5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 42%;
+    height: 600px;
+    margin:auto;
+    border: none;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .5);
+    margin-top: 6%;
+}
+        
+        
+.content3  .btn1{
+    padding:20px;
+    background-color:hsl(0, 0%, 7%) ;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    width:40%;
+    position: relative;
+    left: 0%;
+    margin: 0;
+    
+}
+.fam-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    height: 30%;
+    text-align: start;
+    margin-top: 50px;
+}
+.Gathering{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 40%;
+}
+        
+        
+.content3 h3{
+    text-align: start;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: hsl(27, 22%, 51%);
+    width: 100%;
+    margin:10px  0;
+    font-family: "League Spartan", sans-serif;
+}
+.H3{
+    width: 100%;
+    text-align: start;
+    margin:10px  0;
+}
+        
+.H3 h3{
+    
+    color:hsl(0, 0%, 7%) ;
+    margin:0px;
+    width: 100%;
+    
+}
+.content4-text{
+    width: 90%;
+}
+        
+.content4-text h2{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+    margin:30px auto;
+    letter-spacing: 2px;
+    text-align: start;
+}
+        
+.content4-text p{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.5em;
+    width: 100%;
+    margin:20px auto;
+    text-align: start;
+}

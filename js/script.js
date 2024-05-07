@@ -7,13 +7,7 @@ let classes = (classes)=> document.getElementsByClassName(classes);
 
 
 
-let  btN = id("button"),
-     btN1 = id("button1"),
-     btN2 = id("button2"),
-     offScreen = id("offscreen1"),
-     onScreen = id("wrap"),
-     offBtn = id("offbtn"),
-    offBtn1 = id("offbtn1"),
+let  
     person =id("persons"),
      Plus = id("plus"),
      Minus = id("minus"),
@@ -39,17 +33,9 @@ let  btN = id("button"),
 
 let countValue = 0  
 
-console.log()
-
-
-let display = 0
-
-length = 0
-
-
 
 Minus.addEventListener("click" , () =>{
-    countValue -=1 ;
+    countValue-=1;
     person.innerText = countValue ;
 })
 
@@ -59,7 +45,7 @@ Plus.addEventListener("click" , () =>{
     person.innerText = countValue ;
 })
 
-btN.addEventListener("click", function(){
+/*btN.addEventListener("click", function(){
     if(display == 0){
         onScreen.style.display ="none";
         display == 0 ;
@@ -88,7 +74,7 @@ btN2.addEventListener("click", function(){
         offScreen.style.display ="block";
     }
 
-})
+})*/
 
 /*form.addEventListener("submit", (e) =>{
     e.preventDefault();
@@ -121,12 +107,8 @@ let engine = ( id , serial,message, serial1,color) =>{
         errorMsg1[serial].innerHTML = message;
         errorMsg1[serial].style.marginLeft ="6%";
         color1[serial1].style.borderColor=color;
-        onScreen.style.display ="none";
-        offScreen.style.display ="block";
     }
     else{
-        onScreen.style.display ="block";
-        offScreen.style.display ="none";
         errorMsg1[serial].innerHTML ="";
         color1[serial1].style.borderColor="black";
         userName.value="";
@@ -142,12 +124,8 @@ let engine2 = ( id, serial,message,) =>{
         dateColor[1].style.borderColor="red";
         dateColor[2].style.borderColor="red";
         paragraph[0].style.color="red";
-        onScreen.style.display ="none";
-        offScreen.style.display ="block";
     }
     else{
-        onScreen.style.display ="block";
-        offScreen.style.display ="none";
         errorMsg1[serial].innerHTML ="";
         dateColor[0].style.borderColor="black";
         dateColor[1].style.borderColor="black";
@@ -165,12 +143,8 @@ let engine3 = ( id, serial,message) =>{
         timeColor[1].style.borderColor="red";
         timeColor[2].style.borderColor="red";
         paragraph[1].style.color="red";
-        onScreen.style.display ="none";
-        offScreen.style.display ="block";
     }
     else{
-        onScreen.style.display ="block";
-        offScreen.style.display ="none";
         errorMsg1[serial].innerHTML ="";
         timeColor[0].style.borderColor="black";
         timeColor[1].style.borderColor="black";
@@ -184,7 +158,6 @@ let engine3 = ( id, serial,message) =>{
 
 
 
-console.log(Minus)
 
 HtmlValidationBtn.addEventListener("click", ()=>{
     form2.style.display="block";
